@@ -1,7 +1,10 @@
 {
-  "name": "cmhook/phpcs-magento-ecg-project",
-  "type": "library",
-  "description": "PHPCS Magento ECG standards (within a project) for andkirby/commithook.",
-  "prefer-stable": true,
-  "license": "GPL-3.0"
+    "name": "cmhook/phpcs-magento-ecg-project",
+    "type": "library",
+    "description": "PHPCS Magento ECG standards for andkirby/commithook",
+    "prefer-stable": true,
+    "license": "GPL-3.0",
+    "require": {
+        "magento-ecg/coding-standard": "~2.0@stable"
+    }
 }
