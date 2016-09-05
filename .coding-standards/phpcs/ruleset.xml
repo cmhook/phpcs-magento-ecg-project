@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <ruleset name="CommitHooks">
-    <description>The CommitHook config for PHP CodeSniffer. (extended from Magento ECG)</description>
+    <description>The Magento ECG config for andkirby/commithook.</description>
 
     <!-- Include the whole magento-ecg standard -->
-    <rule ref="../vendor/magento-ecg/coding-standard/Ecg">
+    <rule ref="../../../../magento-ecg/coding-standard/Ecg">
         <!--Exclude TO-DO comments blocking-->
         <exclude name="Generic.Commenting.Todo" />
     </rule>
