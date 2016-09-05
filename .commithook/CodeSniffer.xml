@@ -3,7 +3,7 @@
     <validators>
         <CodeSniffer>
             <rule>
-                <directory>.coding-standards/phpcs</directory>
+                <directory>.coding-standards/vendor/cmhook/phpcs-magento-ecg-project/.coding-standards/phpcs</directory>
             </rule>
         </CodeSniffer>
     </validators>
