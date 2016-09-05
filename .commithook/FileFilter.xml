@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <validators>
+        <FileFilter>
+            <filter>
+                <protect>
+                    <path>
+                        <downloader>downloader</downloader>
+                        <lib>lib</lib>
+                        <app_code_core>app/code/core</app_code_core>
+                        <app_code_community>app/code/community</app_code_community>
+                        <app_code_local_Mage>app/code/local/Mage</app_code_local_Mage>
+                        <app_code_local_Enterprise>app/code/local/Enterprise</app_code_local_Enterprise>
+                        <app_design_install>app/design/install</app_design_install>
+                        <index.php>index.php</index.php>
+                    </path>
+                </protect>
+            </filter>
+        </FileFilter>
+    </validators>
+</config>
